@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f0ea;
+}
+
+header {
+    padding: 1rem;
+    background-color: #331f19;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 38rem;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #798252;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #798252;
+}

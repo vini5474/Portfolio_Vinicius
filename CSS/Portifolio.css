@@ -53,3 +53,16 @@ a {
 h2 {
     color: #798252;
 }
+
+p {
+    color: #798252;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 38rem;
+    gap: 2rem;
+}
