@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <title>Exercício21</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Cadastro</legend>
+          <input type="text" id="inputNome" placeholder="Digite seu nome">
+          <input type="text" id="inputEndereco" placeholder="Digite seu endereço">
+          <p>Digite seu sexo:</p>
+          <p>
+            <input type="radio" id="m" name="sexo" value="masculino"/>
+            <label for="m">Masculino</label>
+          </p>
+          <p>
+            <input type="radio" id="f" name="sexo" value="feminino"/>
+            <label for="f">Feminino</label>
+          </p>
+          <input type="text" id="inputTelefone" placeholder="Digite seu telefone">
+          <input type="text" id="inputCelular" placeholder="Digite seu celular">
+          <input type="email" id="inputEmail" placeholder="Digite email">
+          <button class="botao" onclick="Cadastrar()">Cadastrar</button>
+        </fieldset>
+      </form>
+      <script src="../Scripts/script21.js"></script>
+</body>
+</html>
