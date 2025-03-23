@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +8,26 @@
 
 body {
     background-color: #f4f0ea;
+    font-family: "cabin", sans-serif;
 }
 
 header {
-    padding: 1rem;
+    padding: 2rem;
     background-color: #331f19;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 38rem;
     gap: 2rem;
+    justify-content: center; 
+    width: 100%; 
 }
 
 a {
@@ -29,6 +37,10 @@ a {
 p {
     color: #798252;
     font-size: 2rem;
+}
+
+p:hover {
+    color: #93948e;
 }
 
 h1 {
