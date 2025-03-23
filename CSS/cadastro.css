@@ -1,7 +1,6 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fc;
+    background-color: #331F19;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: #CBBBA7;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -26,7 +25,7 @@ legend {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #4CAF50;
+    color: #331F19;
 }
 
 input[type="text"],
@@ -44,13 +43,14 @@ input[type="email"] {
 input[type="text"]:focus,
 input[type="number"]:focus,
 input[type="email"]:focus {
-    border-color: #4CAF50;
+    border-color: #331F19;
     outline: none;
-    background-color: #e8f5e9;
+    background-color: #ffaa8d;
 }
 
 input[type="radio"] {
     margin-right: 8px;
+    accent-color: #331F19;
 }
 
 p {
@@ -63,11 +63,10 @@ label {
     margin-left: 5px;
 }
 
-/* Adicionando um botão de envio */
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #60041A;
     color: white;
     font-size: 16px;
     border: none;
@@ -76,10 +75,9 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #A34743;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
     form {
         padding: 15px;
