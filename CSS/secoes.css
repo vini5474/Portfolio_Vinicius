@@ -48,7 +48,6 @@ section {
     backdrop-filter: blur(6px);
     border-radius: 17px;
     text-align: center;
-    cursor: pointer;
     transition: all 0.5s;
     display: flex;
     align-items: center;
@@ -76,5 +75,5 @@ p:hover {
 }
 
 h2:hover {
-    color: #93948e;
+    color: #9ba082;
 }
