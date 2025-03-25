@@ -35,7 +35,6 @@ header {
 section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 1px solid black;
     gap: 1.5rem;
 }  
 
