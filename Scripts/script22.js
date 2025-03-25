@@ -1,6 +1,6 @@
 const imposto = (salario) => {
     if (salario <= 2259.20) {
-        return "Você está isento do imposto de renda.";
+        return "Você está isento do imposto de renda."
     }
     else if (salario <= 2826.65) {
         const impostoCalculado = (salario * 0.075) - 158.40  
