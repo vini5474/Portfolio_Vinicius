@@ -1,8 +1,8 @@
 let numero = Number(prompt("Digite um número:"))
-let contador = 1
-let x = 2
-while (x <= numero) {
-    contador *= x
-    x++
+let fatorial = 1
+let contador = 2
+while (contador <= numero) {
+    fatorial *= contador
+    contador++
 }
-document.write(`fatorial de ${numero} é ${contador}`)
+document.write(`fatorial de ${numero} é ${fatorial}`)
