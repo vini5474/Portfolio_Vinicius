@@ -1,4 +1,4 @@
-let numero = Number(prompt("Digite um número:"))
+let numero = parseInt(prompt("Digite um número:"))
 let fatorial = 1
 let contador = 2
 while (contador <= numero) {

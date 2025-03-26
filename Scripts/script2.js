@@ -1,4 +1,4 @@
-let numero = Number(prompt("Digite um número:"))
+let numero = parseInt(prompt("Digite um número:"))
 if (numero % 2 == 0) {
     document.write(`O número é par`)
 }
