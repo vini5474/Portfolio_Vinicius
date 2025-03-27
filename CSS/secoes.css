@@ -77,3 +77,20 @@ p:hover {
 h2:hover {
     color: #9ba082;
 }
+
+footer {
+    width: 100%;
+    background-color: #331f19;
+}
+
+#footer_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #1e120f;
+}
