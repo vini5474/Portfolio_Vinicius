@@ -46,3 +46,28 @@ p:hover {
 h1 {
     color: #798252;
 }
+
+footer {
+    background-color: #331f19;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #798252;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #c9d0a3; 
+}
