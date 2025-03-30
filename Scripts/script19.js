@@ -16,5 +16,5 @@ for (let i = 0; i < cedulas.length; i++) {
 document.write('Quantidade de cédulas necessárias:')
 
 for (const cedula in quantidadeCedulas) {
-    document.write(`R$${cedula}: ${quantidadeCedulas[cedula]} cédulas`)
+    document.write(`R$${cedula}: ${quantidadeCedulas[cedula]} cédulas<br>`)
 }

@@ -11,20 +11,20 @@ while (numero1 === numero2 && numero2 === numero3) {
 }
 
 if (numero1 > numero2 && numero1 > numero3 && numero2 > numero3)  {
-    document.write(`Ordem crescente dos números: ${numero3}, ${numero2}, ${numero1}`)
+    document.write(`Ordem crescente dos números: ${numero3}, ${numero2}, ${numero1}<br>`)
 }
 else if (numero2 > numero1 && numero2 > numero3 && numero1 > numero3) {
-    document.write(`Ordem crescente dos números: ${numero3}, ${numero1}, ${numero2}`)
+    document.write(`Ordem crescente dos números: ${numero3}, ${numero1}, ${numero2}<br>`)
 }
 else if (numero2 > numero1 && numero2 > numero3 && numero3 > numero1) {
-    document.write(`Ordem crescente dos números: ${numero1}, ${numero3}, ${numero2}`)
+    document.write(`Ordem crescente dos números: ${numero1}, ${numero3}, ${numero2}<br>`)
 }
 else if (numero3 > numero1 && numero3 > numero2 && numero1 > numero2) {
-    document.write(`Ordem crescente dos números: ${numero2}, ${numero1}, ${numero3}`)
+    document.write(`Ordem crescente dos números: ${numero2}, ${numero1}, ${numero3}<br>`)
 }
 else if (numero1 > numero2 && numero1 > numero3 && numero3 > numero2) {
-    document.write(`Ordem crescente dos números: ${numero2}, ${numero3}, ${numero1}`)
+    document.write(`Ordem crescente dos números: ${numero2}, ${numero3}, ${numero1}<br>`)
 }
 else if (numero3 > numero1 && numero3 > numero2 && numero2 > numero1) {
-    document.write(`Ordem crescente dos números: ${numero1}, ${numero2}, ${numero3}`)
+    document.write(`Ordem crescente dos números: ${numero1}, ${numero2}, ${numero3}<br>`)
 }

@@ -4,8 +4,8 @@ while (idade < 0) {
     idade = parseInt(prompt("Digite sua idade:"))
 }
 if (idade >= 18) {
-    document.write("Você tem idade suficiente para tirar a carteira de motorista.")
+    document.write("Você tem idade suficiente para tirar a carteira de motorista.<br>")
 }
 else {
-    document.write("Você não tem idade suficiente para tirar a carteira de motorista.")
+    document.write("Você não tem idade suficiente para tirar a carteira de motorista.<br>")
 }

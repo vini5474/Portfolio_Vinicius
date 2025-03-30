@@ -9,7 +9,5 @@ while (contador > 0) {
 }
 let dobro = lista_numeros.map(n => n * 2)
 
-document.write(`Números digitados: `)
-document.write(`${lista_numeros} <br>`)
-document.write(`Dobros dos números: `)
-document.write(dobro)
+document.write(`Números digitados: ${lista_numeros}.<br>`)
+document.write(`Dobros dos números: ${dobro}.<br>`)

@@ -5,4 +5,4 @@ while (contador <= numero) {
     fatorial *= contador
     contador++
 }
-document.write(`fatorial de ${numero} é ${fatorial}.`)
+document.write(`O fatorial de ${numero} é ${fatorial}.<br>`)

@@ -13,4 +13,4 @@ for (let i = 0; i < conjunto_numeros.length; i++) {
     total += conjunto_numeros[i]
 }
 let media = total / conjunto_numeros.length
-document.write(`Média aritmédica do conjunto: ${media}.`)
+document.write(`Média aritmédica do conjunto: ${media}.<br>`)
