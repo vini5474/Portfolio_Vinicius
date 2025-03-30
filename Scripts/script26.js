@@ -7,9 +7,9 @@ while (contador > 0) {
     lista_numeros.push(numero)
     contador -= 1
 }
-let metade = lista_numeros.map(n => n * 2)
+let dobro = lista_numeros.map(n => n * 2)
 
 document.write(`Números digitados: `)
 document.write(`${lista_numeros} <br>`)
 document.write(`Dobros dos números: `)
-document.write(metade)
+document.write(dobro)

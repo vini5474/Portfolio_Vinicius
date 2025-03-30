@@ -57,6 +57,10 @@ section {
     color: black;
 }
 
+.card h2:hover {
+    color: #9ba082;
+}
+
 a {
     text-decoration: none;
 }
@@ -72,10 +76,6 @@ p {
 
 p:hover {
     color: #8d9273;
-}
-
-h2:hover {
-    color: #9ba082;
 }
 
 footer {
@@ -95,10 +95,15 @@ footer {
 .social-icon {
     color: #798252;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 .social-icon:hover {
     color: #c9d0a3; 
+}
+
+footer h2 {
+    color: #798252;
+    text-decoration: none;
 }
