@@ -9,4 +9,4 @@ while (contador > 0) {
     }
     contador--
 }
-document.write(`Idades acima da média: ${idades_acima_media}`)
+document.write(`Idades acima da média: ${idades_acima_media}.`)

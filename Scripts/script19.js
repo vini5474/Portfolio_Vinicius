@@ -1,7 +1,7 @@
 const cedulas = [200, 100, 50, 20, 10, 5, 1]
 const quantidadeCedulas = {}
 
-let valor = parseInt(prompt("Digite um valor: "))
+let valor = parseInt(prompt("Digite um valor:"))
 
 for (let i = 0; i < cedulas.length; i++) {
     const cedula = cedulas[i]

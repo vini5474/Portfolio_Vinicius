@@ -9,8 +9,8 @@ while (contador > 0) {
     contador--
 }
 if (numeros_pares.length > 0) {
-    document.write(`Números pares: ${numeros_pares}`)
+    document.write(`Números pares: ${numeros_pares}.`)
 }
 else {
-    document.write(`Todos os números são ímpares`)
+    document.write(`Todos os números são ímpares.`)
 }
