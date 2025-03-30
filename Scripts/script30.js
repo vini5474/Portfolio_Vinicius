@@ -1,6 +1,6 @@
 let lista_nome = []
 
-for (let contator = 0; contator < 3; contator++) {
+for (let contador = 0; contador < 3; contador++) {
     let nome = prompt("Digite seu nome:").toLowerCase()
     lista_nome.push(nome)
 }
