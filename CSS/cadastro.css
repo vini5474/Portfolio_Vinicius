@@ -69,15 +69,11 @@ button {
     width: 100%;
     padding: 10px;
     background-color: #60041A;
-    color: white;
+    color: #F4F0EA;
     font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    text-decoration: none;
-}
-
-.aa {
     text-decoration: none;
 }
 
