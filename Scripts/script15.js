@@ -1,3 +1,3 @@
 let nome = prompt("Digite um nome:")
-let separa_letras = nome.split("")
-document.write(separa_letras)
+let letras_separadas = nome.split("")
+document.write(letras_separadas)

@@ -49,10 +49,10 @@ h1 {
 
 footer {
     background-color: #331f19;
-    color: #fff;
+    color: #798252;
     text-align: center;
     padding: 20px;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }

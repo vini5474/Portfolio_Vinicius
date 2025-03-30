@@ -18,6 +18,9 @@ const calculadora = (simbolo, num1, num2) => {
         const adicao = num1 + num2  
         return `Resultado da adição: ${adicao.toFixed(2)}`
     }
+    else {
+        return `Símbolo inválido`
+    }
 }
 
 const simbolo = prompt("Digite o símbolo para a operação: /, *, -, +")
