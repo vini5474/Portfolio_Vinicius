@@ -1,3 +1,5 @@
+/*A seção 3 recebe um arquivo CSS separado porque a propriedade position do footer dever diferente das outras seções para evitar erros*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
@@ -88,7 +90,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
